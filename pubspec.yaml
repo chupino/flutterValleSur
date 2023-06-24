@@ -1,0 +1,75 @@
+name: apitest3
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.0.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_stripe: ^9.2.2
+  get: ^4.6.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  intl: ^0.18.0
+  http: ^0.13.4
+  pocketbase: ^0.10.1
+  getwidget: ^3.1.1
+  flutter_svg: ^2.0.7
+  lottie: ^2.4.0
+  smooth_page_indicator: ^1.1.0
+  equatable: ^2.0.5
+  shared_preferences: ^2.1.2
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  path: ^1.8.3
+  path_provider: ^2.0.15
+  image_picker: ^0.8.9
+  camera: ^0.10.5+2
+  page_transition: ^2.0.9
+  validators: ^3.0.0
+  flutter_form_builder: ^9.0.0
+  flutter_datetime_picker: ^1.5.1
+  country_list_picker: ^1.0.2
+  url_launcher: ^6.1.11
+  badges: ^3.1.1
+  simple_shadow: ^0.3.1
+  carousel_slider: ^4.0.0
+  flutter_sticky_header: ^0.6.5
+  salomon_bottom_bar: ^3.3.2
+  font_awesome_flutter: ^10.4.0
+  dropdown_button2: ^2.1.4
+  syncfusion_flutter_datepicker: ^21.2.10
+  easy_stepper: ^0.7.2
+  time_range: ^1.1.0
+  status_bar_control: ^3.2.1
+  dotted_line: ^3.2.2
+  qr_flutter: ^4.1.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/animations/
+    - assets/svg/
+    - assets/icons/
+  
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: fonts/Poppins-Light.otf
+        - asset: fonts/Poppins-Regular.otf
+        - asset: fonts/Poppins-SemiBold.otf
+        - asset: fonts/Poppins-Medium.otf
+        - asset: fonts/Poppins-Bold.otf
+          weight: 700
+    - family: MyFlutterApp
+      fonts:
+        - asset: fonts/MyFlutterApp.ttf
